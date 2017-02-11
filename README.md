@@ -16,13 +16,13 @@ From unfilter’s docs:
 > * An _intent_ is a partial function for matching requests.
 > * A _plan_ binds an intent to a particular server interface.
 
-Usage:
+####Usage:
 * Clone the git repository
 * Import project in IntelliJ IDE
 * Run SimpleServer 
 * Open localhost:8080 in any client
 
-Demonstrating with Simple WorkCount program in Scala
+Demonstrating Simple WorkCount program in Postman client
 
 * GET
 ![](http://i67.tinypic.com/358ozo4.png)
