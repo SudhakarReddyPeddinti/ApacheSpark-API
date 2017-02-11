@@ -1,11 +1,10 @@
 # ApacheSpark - Scala - API
 #### NOTE: Only for those who use Apache Spark in IDE by loading required libraries via a build tool.
-
-Providing API capabilities using simple lightweight http server(Unfiltered) for Apache Spark applications. Instant testing (avoiding packaging and deploying using local machine's Spark & CLI) by using simple http wrapper for programatic execution in Intellij IDE.
+Providing API capabilities using simple lightweight http server (like [flask](http://flask.pocoo.org)) for Apache Spark applications written in Scala. Instant testing (avoiding packaging and deploying using local machine's Spark & CLI) by using simple http wrapper for execution in Intellij IDE.
 
 ##### The Problem: Provide api capabilities for spark programs which can accept http request and send response.
 
-Http capabilities are achived using simple Http serving toolkit written for scala - [Unfiltered](http://unfiltered.ws/index.html).
+API capabilities are achived using simple Http serving toolkit written for scala - [Unfiltered](http://unfiltered.ws/index.html).
 
 Unfiltered provides:
 
@@ -19,7 +18,7 @@ From unfilter’s docs:
 ####Usage:
 * Clone the git repository
 * Import project in IntelliJ IDE
-* Run SimpleServer 
+* Run SimpleServer
 * Open localhost:8080 in any client
 
 Demonstrating Simple WorkCount program in Postman client
@@ -32,5 +31,5 @@ Demonstrating Simple WorkCount program in Postman client
 
 ### Todos
 
-- Image Classification example
-
+- [x] Word count example 
+- [ ] Image Classification example
