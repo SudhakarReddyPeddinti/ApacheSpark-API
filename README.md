@@ -17,11 +17,12 @@ From unfilter’s docs:
 > * A _plan_ binds an intent to a particular server interface.
 
 Demonstrating with Simple WorkCount program in Scala
-##### GET
+
+* GET 
 ![](http://i67.tinypic.com/358ozo4.png)
 
-##### POST
-![](http://i68.tinypic.com/2zyfjty.png)
+* POST
+![](http://i68.tinypic.com/34hhy8p.png)
 
 ### Todos
 
