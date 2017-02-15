@@ -4,7 +4,7 @@
 		module="spark_wordcount_rest-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170210181800"
+		publication="20170215004149"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

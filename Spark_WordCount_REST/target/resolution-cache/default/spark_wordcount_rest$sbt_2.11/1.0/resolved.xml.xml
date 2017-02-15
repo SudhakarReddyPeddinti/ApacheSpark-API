@@ -4,7 +4,7 @@
 		module="spark_wordcount_rest$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170210182024"
+		publication="20170215102036"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

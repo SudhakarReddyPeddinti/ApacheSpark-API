@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170210182025"/>
+		date="20170215102038"/>
 	<dependencies>
 		<module organisation="net.databinder" name="unfiltered-directives_2.11">
 			<revision name="0.8.3" status="release" pubdate="20141111224400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="157">

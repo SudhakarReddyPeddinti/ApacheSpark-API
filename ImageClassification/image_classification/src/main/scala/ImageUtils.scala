@@ -153,9 +153,6 @@ object ImageUtils {
       i += 1
     }
 
-    //    println("The Mat is")
-    //    println(vocab.asCvMat().toString)
-
     vocab
   }
 

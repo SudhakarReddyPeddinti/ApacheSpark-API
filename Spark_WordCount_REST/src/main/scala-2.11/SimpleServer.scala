@@ -9,11 +9,11 @@ import unfiltered.response._
 
 object SimplePlan extends Plan {
   def intent = {
-    case req @ GET(Path("/get")) => {
+    case req @ GET(Path("/get_wordcount")) => {
       Ok ~> ResponseString(WordCount.count("Test #1: Test the Default word count program").mkString("\n"));
     }
 
-    case req @ POST(Path("/get_custom")) => {
+    case req @ POST(Path("/get_wordcount")) => {
       val custom_string = Body.string(req)
       Ok ~> ResponseString(WordCount.count(custom_string).mkString("\n"))
     }

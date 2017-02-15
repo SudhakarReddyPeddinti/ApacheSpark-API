@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/sudhakar/.ivy2/cache
 [debug] :: resolving dependencies :: default#spark_wordcount_rest$sbt_2.11;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -703,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 554ms :: artifacts dl 39ms
-[debug] 	report for default#spark_wordcount_rest$sbt_2.11;1.0 default produced in /Users/sudhakar/Downloads/Tutorial-2 Spark-I GoogleConversionAPI/Image Annotation/Spark_WordCount_REST/target/resolution-cache/reports/default-spark_wordcount_rest$sbt_2.11-default.xml
-[debug] 	resolve done (554ms resolve - 39ms download)
+[debug] :: resolution report :: resolve 1443ms :: artifacts dl 54ms
+[debug] 	report for default#spark_wordcount_rest$sbt_2.11;1.0 default produced in /Users/sudhakar/Documents/Gits/ApacheSpark_RestAPI/Spark_WordCount_REST/target/resolution-cache/reports/default-spark_wordcount_rest$sbt_2.11-default.xml
+[debug] 	resolve done (1443ms resolve - 54ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#spark_wordcount_rest$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1070,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 171ms :: artifacts dl 36ms
-[debug] 	report for default#spark_wordcount_rest$sources_2.11;1.0 default produced in /Users/sudhakar/Downloads/Tutorial-2 Spark-I GoogleConversionAPI/Image Annotation/Spark_WordCount_REST/target/resolution-cache/reports/default-spark_wordcount_rest$sources_2.11-default.xml
-[debug] 	resolve done (171ms resolve - 36ms download)
+[debug] :: resolution report :: resolve 225ms :: artifacts dl 62ms
+[debug] 	report for default#spark_wordcount_rest$sources_2.11;1.0 default produced in /Users/sudhakar/Documents/Gits/ApacheSpark_RestAPI/Spark_WordCount_REST/target/resolution-cache/reports/default-spark_wordcount_rest$sources_2.11-default.xml
+[debug] 	resolve done (225ms resolve - 62ms download)
