@@ -19,17 +19,26 @@ From unfilter’s docs:
 * Clone the git repository
 * Import project in IntelliJ IDE
 * Run SimpleServer
-* Open localhost:8080 in any client
+* open `localhost:8080` in any web browser
 
-Demonstrating Simple WorkCount program in Postman client
+1. Demonstrating Simple WorkCount program in Postman client:
 
-* GET
+ * GET
 ![](http://i67.tinypic.com/358ozo4.png)
 
-* POST
+ * POST
 ![](http://i68.tinypic.com/34hhy8p.png)
+
+2. Demonstrating Image Classification in Web Client:
+
+ * Architecture
+![Architecture](http://i68.tinypic.com/11alq9h.jpg)
+
+ * Web client interface
+![ImgClasfy](http://i65.tinypic.com/2drevsl.jpg)
 
 ### Todos
 
-- [x] Word count example 
-- [ ] Image Classification example
+- [x] Word count example
+- [x] Image Classification using spark example
+- [ ] Image Classification comparison with tensorflow
